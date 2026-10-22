@@ -1,0 +1,1172 @@
+{
+ "id": "flyer9",
+ "marca": "BENETEAU",
+ "nome": "Flyer 9 SUNdeck",
+ "medidas": "9.10 m × 2.99 m · 3 350 kg · 2 outboards up to 500 hp · CE B6 / C10",
+ "creditos": "Presentation concept, not the official BENETEAU configurator. 3D model built from scratch by AutoUpscale from the official profile, deck plan and photographs. Prices from the official configurator (Europe, excl. VAT), read on 18/10/2026. Upholstery and RAL colours are approximate on screen.",
+ "modelo": "modelos/flyer9.glb",
+ "lingua": "en-GB",
+ "preco": {
+  "base": 114000,
+  "moeda": "EUR",
+  "nota": "Official BENETEAU prices, Europe, excl. VAT"
+ },
+ "ambienteInicial": "estudio",
+ "ambientes": [
+  [
+   "estudio",
+   "Studio"
+  ]
+ ],
+ "linhaDeAgua": 0.17,
+ "rodarLuz": 150,
+ "cameraInicial": "Três quartos",
+ "contacto": {
+  "email": "",
+  "assunto": "Flyer 9 SUNdeck · my configuration"
+ },
+ "zonas": {
+  "casco": {
+   "procura": "CASCO gelcoat",
+   "acabamento": "gelcoat"
+  },
+  "faixa": {
+   "procura": "FAIXA casco",
+   "acabamento": "gelcoat"
+  },
+  "janela": {
+   "procura": "JANELA casco",
+   "acabamento": "gelcoat"
+  },
+  "pulpito": {
+   "procura": "PULPITO",
+   "acabamento": "inox"
+  },
+  "estofo": {
+   "procura": "ESTOFO principal",
+   "acabamento": "tecido",
+   "relevo": "vinil"
+  },
+  "acento": {
+   "procura": "ESTOFO acento",
+   "acabamento": "tecido",
+   "relevo": "vinil"
+  },
+  "mesa": {
+   "procura": "MESA madeira",
+   "acabamento": "madeira"
+  },
+  "ttop": {
+   "procura": "TTOP tejadilho",
+   "acabamento": "gelcoat"
+  },
+  "lona": {
+   "procura": "LONA (bimini|toldo)",
+   "acabamento": "tecido",
+   "relevo": "tecido"
+  },
+  "motor": {
+   "procura": "MOTOR capota",
+   "acabamento": "metalizado"
+  },
+  "eva": {
+   "procura": "EVA cinza",
+   "acabamento": "mate",
+   "relevo": "eva"
+  },
+  "teca": {
+   "procura": "TECA plataformas",
+   "acabamento": "madeira"
+  },
+  "led-sub": {
+   "procura": "LED subaquatico",
+   "acabamento": "solido",
+   "luz": "#3fb8ff",
+   "intensidade": 5,
+   "acesa": true
+  },
+  "led-cortesia": {
+   "procura": "LED cortesia",
+   "acabamento": "solido",
+   "luz": "#ffe3b0",
+   "intensidade": 1.4,
+   "acesa": true
+  },
+  "farol": {
+   "procura": "LED farol",
+   "acabamento": "solido",
+   "luz": "#f4f8ff",
+   "intensidade": 1.6,
+   "acesa": true
+  },
+  "led-colunas": {
+   "procura": "LED colunas",
+   "acabamento": "solido",
+   "luz": "#3fb8ff",
+   "intensidade": 2,
+   "acesa": true
+  }
+ },
+ "cameras": {
+  "Três quartos": {
+   "pos": [
+    11.8,
+    5.2,
+    8.6
+   ],
+   "alvo": [
+    3.9,
+    1.3,
+    0
+   ]
+  },
+  "Popa": {
+   "pos": [
+    -7.4,
+    3.6,
+    5.6
+   ],
+   "alvo": [
+    0.7,
+    1.1,
+    0
+   ]
+  },
+  "Popa baixa": {
+   "pos": [
+    -5.6,
+    0.55,
+    3.4
+   ],
+   "alvo": [
+    0.2,
+    0.55,
+    0
+   ],
+   "oculta": true
+  },
+  "Perfil": {
+   "pos": [
+    4.1,
+    1.7,
+    14.5
+   ],
+   "alvo": [
+    4.1,
+    1.3,
+    0
+   ]
+  },
+  "Cockpit": {
+   "pos": [
+    -2.4,
+    4.4,
+    -2.7
+   ],
+   "alvo": [
+    2.4,
+    1.4,
+    0.1
+   ]
+  },
+  "Posto de comando": {
+   "pos": [
+    1.7,
+    3.1,
+    -0.9
+   ],
+   "alvo": [
+    4.1,
+    1.85,
+    0.8
+   ]
+  },
+  "Plataforma": {
+   "pos": [
+    1.6,
+    3.3,
+    -7.2
+   ],
+   "alvo": [
+    1.9,
+    1.1,
+    -1.1
+   ],
+   "oculta": true
+  },
+  "Proa": {
+   "pos": [
+    12.6,
+    3.6,
+    -3.8
+   ],
+   "alvo": [
+    5.7,
+    1.6,
+    0
+   ]
+  },
+  "Cobertura": {
+   "pos": [
+    9.8,
+    6.6,
+    -6.2
+   ],
+   "alvo": [
+    3.7,
+    2.2,
+    0
+   ]
+  },
+  "Proa perto": {
+   "pos": [
+    11,
+    2.9,
+    -3.1
+   ],
+   "alvo": [
+    7.6,
+    1.5,
+    0
+   ],
+   "oculta": true
+  },
+  "Proa baixa": {
+   "pos": [
+    9.6,
+    0.7,
+    -3.6
+   ],
+   "alvo": [
+    6.9,
+    0.5,
+    -0.4
+   ],
+   "oculta": true
+  },
+  "Popa perto": {
+   "pos": [
+    -4.6,
+    2.7,
+    3.9
+   ],
+   "alvo": [
+    -0.2,
+    1,
+    0.2
+   ],
+   "oculta": true
+  },
+  "Motores perto": {
+   "pos": [
+    -2.5,
+    1.9,
+    2.4
+   ],
+   "alvo": [
+    -0.45,
+    1.2,
+    0
+   ],
+   "oculta": true
+  },
+  "Popa canto": {
+   "pos": [
+    -2.4,
+    0.45,
+    2.6
+   ],
+   "alvo": [
+    0,
+    0.42,
+    0.9
+   ],
+   "oculta": true
+  }
+ },
+ "passos": [
+  {
+   "id": "motores",
+   "nome": "Engines",
+   "grupos": [
+    "motorizacao"
+   ],
+   "camera": "Três quartos"
+  },
+  {
+   "id": "versao",
+   "nome": "Version",
+   "grupos": [
+    "edicao",
+    "pulpitos"
+   ],
+   "camera": "Três quartos"
+  },
+  {
+   "id": "casco",
+   "nome": "Hull",
+   "grupos": [
+    "casco",
+    "nome"
+   ],
+   "camera": "Perfil"
+  },
+  {
+   "id": "acabamento",
+   "nome": "Equipment level",
+   "grupos": [
+    "acabamento"
+   ],
+   "camera": "Popa"
+  },
+  {
+   "id": "packs",
+   "nome": "Packs",
+   "grupos": [
+    "electronica",
+    "som"
+   ],
+   "camera": "Posto de comando"
+  },
+  {
+   "id": "cockpit",
+   "nome": "Cockpit",
+   "grupos": [
+    "estofos",
+    "cockpit",
+    "modo-cockpit",
+    "plataforma",
+    "piso"
+   ],
+   "camera": "Cockpit"
+  },
+  {
+   "id": "cobertura",
+   "nome": "Shade",
+   "grupos": [
+    "cobertura",
+    "acessorios-cobertura"
+   ],
+   "camera": "Cobertura"
+  },
+  {
+   "id": "proa",
+   "nome": "Bow & stern",
+   "grupos": [
+    "solario-proa",
+    "gurupes",
+    "escada-proa",
+    "mastro"
+   ],
+   "camera": "Proa"
+  },
+  {
+   "id": "equipamento",
+   "nome": "Equipment",
+   "grupos": [
+    "manobra",
+    "conforto"
+   ],
+   "camera": "Popa baixa"
+  }
+ ],
+ "grupos": [
+  {
+   "id": "motorizacao",
+   "nome": "Engines",
+   "tipo": "variante",
+   "descricao": "Twin white outboards. The base price includes the entry-level engines.",
+   "opcoes": [
+    {
+     "id": "suzuki-200",
+     "nome": "Suzuki 2 × 200 hp APX",
+     "padrao": true,
+     "mostra": "^mod motor suzuki 200 ",
+     "camera": "Popa",
+     "imagem": "miniaturas/motorizacao-suzuki-200.jpg"
+    },
+    {
+     "id": "suzuki-250",
+     "nome": "Suzuki 2 × 250 hp APX",
+     "preco": 5700,
+     "mostra": "^mod motor suzuki 250 ",
+     "camera": "Popa",
+     "imagem": "miniaturas/motorizacao-suzuki-250.jpg"
+    },
+    {
+     "id": "mercury-200",
+     "nome": "Mercury 2 × 200 hp XL V6",
+     "preco": 11800,
+     "mostra": "^mod motor mercury 200 ",
+     "camera": "Popa",
+     "imagem": "miniaturas/motorizacao-mercury-200.jpg"
+    },
+    {
+     "id": "mercury-250",
+     "nome": "Mercury 2 × 250 hp XL V8",
+     "preco": 19900,
+     "mostra": "^mod motor mercury 250 ",
+     "camera": "Popa",
+     "imagem": "miniaturas/motorizacao-mercury-250.jpg"
+    },
+    {
+     "id": "mercury-250-jpo",
+     "nome": "Mercury 2 × 250 hp XL V8 + joystick",
+     "preco": 33000,
+     "descricao": "Dock sideways one-handed: joystick at the helm.",
+     "mostra": [
+      "^mod motor mercury 250 ",
+      "^mod joystick"
+     ],
+     "camera": "Posto de comando",
+     "imagem": "miniaturas/motorizacao-mercury-250-jpo.jpg"
+    }
+   ],
+   "miniatura": "Motores perto"
+  },
+  {
+   "id": "edicao",
+   "nome": "Edition",
+   "tipo": "pacote",
+   "opcoes": [
+    {
+     "id": "serie",
+     "nome": "Flyer 9 SUNdeck",
+     "padrao": true,
+     "imagem": "miniaturas/edicao-serie.jpg"
+    },
+    {
+     "id": "pilot",
+     "nome": "Pilot Edition",
+     "consulta": true,
+     "descricao": "Signal Grey hull, black pulpits, sport steering wheel, black T-top, blue underwater lights, Linetex Glacier and Chalk upholstery, telescopic table and cockpit LEDs.",
+     "mostra": "^mod volante sport",
+     "esconde": "^volante serie",
+     "inclui": [
+      "casco:cinza-sinal",
+      "pulpitos:preto",
+      "cobertura:ttop-preto",
+      "estofos:pilot",
+      "cockpit:mesa-solario",
+      "cockpit:led-cortesia",
+      "cockpit:banco-leaning",
+      "manobra:luzes-sub"
+     ],
+     "imagem": "miniaturas/edicao-pilot.jpg"
+    }
+   ],
+   "miniatura": "Três quartos"
+  },
+  {
+   "id": "pulpitos",
+   "nome": "Pulpits & handrails",
+   "tipo": "cor",
+   "zona": "pulpito",
+   "opcoes": [
+    {
+     "id": "inox",
+     "nome": "Stainless steel",
+     "hex": "#cfd2d6",
+     "acabamento": "inox",
+     "padrao": true
+    },
+    {
+     "id": "preto",
+     "nome": "Black lacquered stainless steel",
+     "hex": "#17181a",
+     "acabamento": "gelcoat",
+     "preco": 830
+    }
+   ]
+  },
+  {
+   "id": "casco",
+   "nome": "Hull colour",
+   "tipo": "cor",
+   "zona": "casco",
+   "opcoes": [
+    {
+     "id": "branco",
+     "nome": "White",
+     "hex": "#f3f3f0",
+     "padrao": true
+    },
+    {
+     "id": "azul-oceano",
+     "nome": "Ocean Blue (RAL 5024)",
+     "hex": "#6093ac",
+     "consulta": true
+    },
+    {
+     "id": "cinza-sinal",
+     "nome": "Signal Grey (RAL 7004)",
+     "hex": "#969992",
+     "requer": [
+      "edicao:pilot"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nome",
+   "nome": "Boat name",
+   "tipo": "texto",
+   "max": 18,
+   "decal": {
+    "lado": "popa"
+   }
+  },
+  {
+   "id": "acabamento",
+   "nome": "Equipment level",
+   "tipo": "pacote",
+   "opcoes": [
+    {
+     "id": "sem",
+     "nome": "No equipment pack",
+     "padrao": true,
+     "imagem": "miniaturas/acabamento-sem.jpg"
+    },
+    {
+     "id": "essential",
+     "nome": "Essential",
+     "preco": 4460,
+     "descricao": "Electric windlass, extended swim platforms, 65 L fridge in the cabin, battery pre-wiring.",
+     "mostra": [
+      "^mod plataforma ext",
+      "^mod guincho"
+     ],
+     "imagem": "miniaturas/acabamento-essential.jpg"
+    },
+    {
+     "id": "comfort",
+     "nome": "Comfort 230 V",
+     "preco": 9910,
+     "descricao": "Everything in Essential, plus cabin sink, 25 L water heater, shore power socket with charger, cockpit gas stove and indoor shower.",
+     "mostra": [
+      "^mod plataforma ext",
+      "^mod guincho",
+      "^mod fogao"
+     ],
+     "camera": "Cockpit",
+     "imagem": "miniaturas/acabamento-comfort.jpg"
+    }
+   ],
+   "miniatura": "Popa perto"
+  },
+  {
+   "id": "electronica",
+   "nome": "Electronics",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "electronic",
+     "nome": "Pack Electronic",
+     "preco": 2580,
+     "descricao": "Garmin ECHOMAP UHD2 92sv 9\" and GT23 transducer.",
+     "mostra": "^mod ecra 9",
+     "exclui": [
+      "electronic-up"
+     ],
+     "imagem": "miniaturas/electronica-electronic.jpg"
+    },
+    {
+     "id": "electronic-up",
+     "nome": "Pack Electronic upgraded",
+     "preco": 4560,
+     "descricao": "Garmin GPSMAP 1223xsv 12\" and GT23 transducer.",
+     "mostra": "^mod ecra 12",
+     "imagem": "miniaturas/electronica-electronic-up.jpg"
+    }
+   ]
+  },
+  {
+   "id": "som",
+   "nome": "Sound",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "sound",
+     "nome": "Pack Sound",
+     "preco": 1410,
+     "descricao": "Fusion MS-RA210, 2 speakers inside and 2 outside (50 W).",
+     "mostra": "^mod som(?! premium)",
+     "exclui": [
+      "sound-premium"
+     ],
+     "camera": "Cockpit",
+     "imagem": "miniaturas/som-sound.jpg"
+    },
+    {
+     "id": "sound-premium",
+     "nome": "Pack Sound premium",
+     "preco": 4510,
+     "descricao": "1 600 W amplifier, 6 Fusion Apollo LED speakers and a 300 W subwoofer.",
+     "mostra": "^mod som premium",
+     "camera": "Cockpit",
+     "imagem": "miniaturas/som-sound-premium.jpg"
+    }
+   ]
+  },
+  {
+   "id": "estofos",
+   "nome": "Upholstery",
+   "tipo": "variante",
+   "camera": "Cockpit",
+   "opcoes": [
+    {
+     "id": "standard",
+     "nome": "Standard · Marlin Auster",
+     "padrao": true,
+     "cores": {
+      "estofo": "#cfccc4",
+      "acento": "#bdb9b0"
+     },
+     "imagem": "miniaturas/estofos-standard.jpg"
+    },
+    {
+     "id": "elegance",
+     "nome": "Elegance · Silvertex Plata and Cognac",
+     "preco": 1320,
+     "cores": {
+      "estofo": "#c9cac8",
+      "acento": "#8b5a33"
+     },
+     "imagem": "miniaturas/estofos-elegance.jpg"
+    },
+    {
+     "id": "pilot",
+     "nome": "Pilot · Linetex Glacier and Chalk",
+     "requer": [
+      "edicao:pilot"
+     ],
+     "cores": {
+      "estofo": "#dfe3e4",
+      "acento": "#ecebe5"
+     },
+     "imagem": "miniaturas/estofos-pilot.jpg"
+    }
+   ],
+   "miniatura": "Cockpit"
+  },
+  {
+   "id": "cockpit",
+   "nome": "Cockpit",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "mesa-solario",
+     "nome": "Table converts to sun pad",
+     "preco": 1460,
+     "descricao": "Wooden table on a telescopic leg: lowers to turn the cockpit into a sun pad.",
+     "miniaturaCom": [
+      [
+       "modo-cockpit",
+       "solario"
+      ]
+     ],
+     "miniatura": "Cockpit",
+     "imagem": "miniaturas/cockpit-mesa-solario.jpg"
+    },
+    {
+     "id": "banco-leaning",
+     "nome": "Bench seat back to leaning post",
+     "preco": 1180,
+     "descricao": "Folding, facing aft.",
+     "mostra": "^mod banco leaning",
+     "imagem": "miniaturas/cockpit-banco-leaning.jpg"
+    },
+    {
+     "id": "frigorifico",
+     "nome": "49 L cockpit fridge",
+     "preco": 1990,
+     "mostra": "^mod frigorifico",
+     "imagem": "miniaturas/cockpit-frigorifico.jpg"
+    },
+    {
+     "id": "led-cortesia",
+     "nome": "Cockpit courtesy LEDs",
+     "preco": 360,
+     "mostra": "^mod led cortesia",
+     "imagem": "miniaturas/cockpit-led-cortesia.jpg"
+    }
+   ]
+  },
+  {
+   "id": "modo-cockpit",
+   "nome": "Cockpit mode",
+   "tipo": "layout",
+   "descricao": "Try the transformation.",
+   "opcoes": [
+    {
+     "id": "mesa",
+     "nome": "Dining table",
+     "padrao": true,
+     "imagem": "miniaturas/modo-cockpit-mesa.jpg"
+    },
+    {
+     "id": "solario",
+     "nome": "Sun pad",
+     "requer": [
+      "cockpit:mesa-solario"
+     ],
+     "mostra": "^mod mesa solario",
+     "move": {
+      "malhas": "^mesa",
+      "pivo": [
+       1.55,
+       1.4,
+       -0.2
+      ],
+      "desloca": [
+       0,
+       -0.4,
+       0
+      ]
+     },
+     "imagem": "miniaturas/modo-cockpit-solario.jpg"
+    }
+   ],
+   "miniatura": "Cockpit"
+  },
+  {
+   "id": "plataforma",
+   "nome": "Side platform",
+   "tipo": "layout",
+   "descricao": "The port bulwark folds down into a terrace over the water (1.60 × 0.85 m). Standard.",
+   "camera": "Plataforma",
+   "opcoes": [
+    {
+     "id": "fechada",
+     "nome": "Closed",
+     "padrao": true,
+     "imagem": "miniaturas/plataforma-fechada.jpg"
+    },
+    {
+     "id": "aberta",
+     "nome": "Open",
+     "move": {
+      "malhas": "^plataforma lateral",
+      "pivo": [
+       1.8,
+       1.02,
+       -1.4528
+      ],
+      "roda": [
+       -90,
+       0,
+       0
+      ]
+     },
+     "imagem": "miniaturas/plataforma-aberta.jpg"
+    }
+   ],
+   "miniatura": "Plataforma"
+  },
+  {
+   "id": "piso",
+   "nome": "Grey foam flooring",
+   "tipo": "variante",
+   "opcoes": [
+    {
+     "id": "sem",
+     "nome": "No foam flooring",
+     "padrao": true,
+     "imagem": "miniaturas/piso-sem.jpg"
+    },
+    {
+     "id": "cockpit-corredores",
+     "nome": "Cockpit and side decks",
+     "preco": 2550,
+     "mostra": [
+      "^mod eva cockpit",
+      "^mod eva corredores"
+     ],
+     "imagem": "miniaturas/piso-cockpit-corredores.jpg"
+    },
+    {
+     "id": "cockpit-mesa",
+     "nome": "Cockpit (with telescopic table)",
+     "preco": 2550,
+     "requer": [
+      "cockpit:mesa-solario"
+     ],
+     "mostra": "^mod eva cockpit",
+     "imagem": "miniaturas/piso-cockpit-mesa.jpg"
+    }
+   ]
+  },
+  {
+   "id": "cobertura",
+   "nome": "Shade",
+   "tipo": "variante",
+   "opcoes": [
+    {
+     "id": "sem",
+     "nome": "Open · low windscreen",
+     "padrao": true,
+     "imagem": "miniaturas/cobertura-sem.jpg"
+    },
+    {
+     "id": "bimini",
+     "nome": "Graphite bimini over the helm",
+     "preco": 2880,
+     "mostra": "^mod bimini(?! extensao)",
+     "imagem": "miniaturas/cobertura-bimini.jpg"
+    },
+    {
+     "id": "ttop-inox",
+     "nome": "New T-top · stainless steel frame",
+     "preco": 9660,
+     "descricao": "White polyester roof and awning extension over the cockpit.",
+     "mostra": [
+      "^mod ttop tejadilho",
+      "^mod ttop quadro inox",
+      "^mod ttop extensao"
+     ],
+     "imagem": "miniaturas/cobertura-ttop-inox.jpg"
+    },
+    {
+     "id": "ttop-preto",
+     "nome": "New T-top · black frame",
+     "preco": 9660,
+     "descricao": "White polyester roof and awning extension over the cockpit.",
+     "mostra": [
+      "^mod ttop tejadilho",
+      "^mod ttop quadro preto",
+      "^mod ttop extensao"
+     ],
+     "imagem": "miniaturas/cobertura-ttop-preto.jpg"
+    }
+   ],
+   "miniatura": "Três quartos"
+  },
+  {
+   "id": "acessorios-cobertura",
+   "nome": "T-top & bimini accessories",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "protecao",
+     "nome": "Helm protection",
+     "preco": 1790,
+     "requer": [
+      "cobertura:ttop-inox|cobertura:ttop-preto"
+     ],
+     "mostra": "^mod ttop protecao",
+     "imagem": "miniaturas/acessorios-cobertura-protecao.jpg"
+    },
+    {
+     "id": "toldo-frente",
+     "nome": "Forward awning extension",
+     "preco": 2090,
+     "requer": [
+      "cobertura:ttop-inox|cobertura:ttop-preto"
+     ],
+     "mostra": "^mod ttop toldo frente",
+     "exclui": [
+      "solario-proa:toldo"
+     ],
+     "camera": "Proa",
+     "imagem": "miniaturas/acessorios-cobertura-toldo-frente.jpg"
+    },
+    {
+     "id": "rack",
+     "nome": "Black board rack",
+     "preco": 1020,
+     "requer": [
+      "cobertura:ttop-inox|cobertura:ttop-preto"
+     ],
+     "mostra": "^mod rack",
+     "imagem": "miniaturas/acessorios-cobertura-rack.jpg"
+    },
+    {
+     "id": "porta-canas",
+     "nome": "T-top rod holders (4)",
+     "preco": 480,
+     "requer": [
+      "cobertura:ttop-inox|cobertura:ttop-preto"
+     ],
+     "mostra": "^mod portacanas",
+     "imagem": "miniaturas/acessorios-cobertura-porta-canas.jpg"
+    },
+    {
+     "id": "farol",
+     "nome": "T-top LED searchlight",
+     "preco": 580,
+     "requer": [
+      "cobertura:ttop-inox|cobertura:ttop-preto"
+     ],
+     "mostra": "^mod farol",
+     "imagem": "miniaturas/acessorios-cobertura-farol.jpg"
+    },
+    {
+     "id": "bimini-extensao",
+     "nome": "Bimini extension over the cockpit",
+     "preco": 2130,
+     "requer": [
+      "cobertura:bimini"
+     ],
+     "mostra": "^mod bimini extensao",
+     "imagem": "miniaturas/acessorios-cobertura-bimini-extensao.jpg"
+    }
+   ]
+  },
+  {
+   "id": "solario-proa",
+   "nome": "Bow sun pad",
+   "tipo": "extra",
+   "descricao": "2.05 × 1.50 m sun pad with reclining backrest, standard.",
+   "opcoes": [
+    {
+     "id": "toldo",
+     "nome": "Sun awning over the sun pad",
+     "preco": 1900,
+     "mostra": "^mod toldo proa",
+     "imagem": "miniaturas/solario-proa-toldo.jpg"
+    }
+   ]
+  },
+  {
+   "id": "gurupes",
+   "nome": "Bowsprit (no ladder)",
+   "tipo": "variante",
+   "opcoes": [
+    {
+     "id": "sem",
+     "nome": "No bowsprit",
+     "padrao": true,
+     "imagem": "miniaturas/gurupes-sem.jpg"
+    },
+    {
+     "id": "inox",
+     "nome": "Stainless steel and wood",
+     "preco": 870,
+     "mostra": "^mod gurupes inox",
+     "esconde": "^roda proa",
+     "imagem": "miniaturas/gurupes-inox.jpg"
+    },
+    {
+     "id": "preto",
+     "nome": "Black and wood",
+     "preco": 870,
+     "requer": [
+      "pulpitos:preto"
+     ],
+     "mostra": "^mod gurupes preto",
+     "esconde": "^roda proa",
+     "imagem": "miniaturas/gurupes-preto.jpg"
+    }
+   ]
+  },
+  {
+   "id": "escada-proa",
+   "nome": "Bow ladder",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "escada",
+     "nome": "Telescopic ladder on the bowsprit",
+     "preco": 220,
+     "requer": [
+      "gurupes:inox|gurupes:preto"
+     ],
+     "mostra": "^mod escada proa",
+     "imagem": "miniaturas/escada-proa-escada.jpg"
+    }
+   ]
+  },
+  {
+   "id": "mastro",
+   "nome": "Ski & wakeboard mast",
+   "tipo": "variante",
+   "camera": "Popa",
+   "opcoes": [
+    {
+     "id": "sem",
+     "nome": "No mast",
+     "padrao": true,
+     "imagem": "miniaturas/mastro-sem.jpg"
+    },
+    {
+     "id": "inox",
+     "nome": "Stainless steel",
+     "preco": 890,
+     "mostra": "^mod ski inox",
+     "imagem": "miniaturas/mastro-inox.jpg"
+    },
+    {
+     "id": "preto",
+     "nome": "Black",
+     "preco": 890,
+     "mostra": "^mod ski preto",
+     "imagem": "miniaturas/mastro-preto.jpg"
+    }
+   ]
+  },
+  {
+   "id": "manobra",
+   "nome": "Manoeuvring, lights & deck",
+   "tipo": "equipamento",
+   "opcoes": [
+    {
+     "id": "luzes-sub",
+     "nome": "Underwater lights (2)",
+     "preco": 1530,
+     "mostra": "^mod luzes sub",
+     "miniatura": "Popa canto",
+     "imagem": "miniaturas/manobra-luzes-sub.jpg"
+    },
+    {
+     "id": "flaps",
+     "nome": "Lenco electric trim tabs",
+     "preco": 1990,
+     "mostra": "^mod flaps",
+     "exclui": [
+      "zipwake"
+     ],
+     "miniatura": "Popa canto",
+     "imagem": "miniaturas/manobra-flaps.jpg"
+    },
+    {
+     "id": "zipwake",
+     "nome": "Zipwake automatic trim",
+     "preco": 3760,
+     "mostra": "^mod zipwake",
+     "miniatura": "Popa canto",
+     "imagem": "miniaturas/manobra-zipwake.jpg"
+    },
+    {
+     "id": "propulsor",
+     "nome": "Bow thruster",
+     "preco": 2730,
+     "mostra": "^mod propulsor",
+     "exclui": [
+      "propulsor-jpo"
+     ],
+     "camera": "Proa",
+     "imagem": "miniaturas/manobra-propulsor.jpg"
+    },
+    {
+     "id": "propulsor-jpo",
+     "nome": "Proportional bow thruster (Mercury joystick)",
+     "preco": 6070,
+     "requer": [
+      "motorizacao:mercury-250-jpo"
+     ],
+     "mostra": "^mod propulsor",
+     "camera": "Proa",
+     "imagem": "miniaturas/manobra-propulsor-jpo.jpg"
+    },
+    {
+     "id": "amarracao",
+     "nome": "Mooring and anchoring kit",
+     "preco": 740
+    },
+    {
+     "id": "vhf",
+     "nome": "VHF Garmin 215 AIS",
+     "preco": 1320
+    },
+    {
+     "id": "buzina",
+     "nome": "Horn",
+     "preco": 350
+    },
+    {
+     "id": "capas",
+     "nome": "Covers for console, leaning post and sun pad",
+     "preco": 2510
+    }
+   ]
+  },
+  {
+   "id": "conforto",
+   "nome": "Cabin & systems",
+   "tipo": "equipamento",
+   "opcoes": [
+    {
+     "id": "ac",
+     "nome": "8 000 BTU air conditioning (shore power)",
+     "preco": 7700,
+     "exclui": [
+      "ac-bateria"
+     ]
+    },
+    {
+     "id": "ac-bateria",
+     "nome": "8 000 BTU air conditioning with Victron batteries",
+     "preco": 14700
+    },
+    {
+     "id": "litio",
+     "nome": "2 lithium batteries (200 Ah) with Victron monitor",
+     "preco": 5900
+    },
+    {
+     "id": "deposito",
+     "nome": "2 × 288 L tanks",
+     "preco": 3220
+    },
+    {
+     "id": "microondas",
+     "nome": "Microwave 220 V",
+     "preco": 620
+    },
+    {
+     "id": "wc",
+     "nome": "Electric freshwater toilet",
+     "preco": 790
+    },
+    {
+     "id": "alcatifa",
+     "nome": "Savage Abundance 39 carpet",
+     "preco": 710
+    },
+    {
+     "id": "antena-tv",
+     "nome": "TV aerial",
+     "preco": 420
+    },
+    {
+     "id": "agua-cais",
+     "nome": "Dock water inlet",
+     "preco": 400
+    }
+   ]
+  }
+ ],
+ "pontos": [
+  {
+   "titulo": "Side platform",
+   "texto": "The bulwark folds down into a terrace over the water. Try it in the configurator.",
+   "pos": [
+    1.8,
+    1.75,
+    -1.5
+   ],
+   "camera": "Plataforma"
+  },
+  {
+   "titulo": "Bow sun pad",
+   "texto": "2.05 × 1.50 m with reclining backrest.",
+   "pos": [
+    6.3,
+    2.1,
+    0
+   ],
+   "camera": "Proa"
+  },
+  {
+   "titulo": "Helm station",
+   "texto": "Console takes up to a 12\" screen, double leaning post.",
+   "pos": [
+    3.9,
+    2.1,
+    0.8
+   ],
+   "camera": "Posto de comando"
+  }
+ ],
+ "corte": false
+}

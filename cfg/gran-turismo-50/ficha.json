@@ -1,0 +1,655 @@
+{
+ "id": "gran-turismo-50-new",
+ "marca": "BENETEAU",
+ "nome": "Gran Turismo 50",
+ "medidas": "15.95 m × 4.48 m · 14 751 kg · CE B10 / C12",
+ "creditos": "Presentation concept, not the official BENETEAU configurator. 3D model built from scratch by AutoUpscale from the official dimensions, profiles and photographs. Prices from the official configurator (Europe, excl. VAT), read on 18/10/2026. On-screen colours are approximate.",
+ "modelo": "modelos/gran-turismo-50-new.glb",
+ "lingua": "en-GB",
+ "preco": {
+  "base": 983600,
+  "moeda": "EUR",
+  "nota": "Official BENETEAU prices, Europe, excl. VAT"
+ },
+ "ambienteInicial": "estudio",
+ "ambientes": [
+  [
+   "estudio",
+   "Studio"
+  ]
+ ],
+ "linhaDeAgua": 0.17,
+ "rodarLuz": 150,
+ "cameraInicial": "Três quartos",
+ "contacto": {
+  "email": ""
+ },
+ "zonas": {
+  "casco": {
+   "procura": "CASCO gelcoat",
+   "acabamento": "gelcoat"
+  },
+  "faixa": {
+   "procura": "FAIXA casco",
+   "acabamento": "gelcoat"
+  },
+  "janela": {
+   "procura": "JANELA (casco|casaria)",
+   "acabamento": "gelcoat"
+  },
+  "pulpito": {
+   "procura": "PULPITO",
+   "acabamento": "inox"
+  },
+  "estofo": {
+   "procura": "ESTOFO principal",
+   "acabamento": "tecido",
+   "relevo": "vinil"
+  },
+  "acento": {
+   "procura": "ESTOFO acento",
+   "acabamento": "tecido",
+   "relevo": "vinil"
+  },
+  "mesa": {
+   "procura": "MESA madeira",
+   "acabamento": "madeira"
+  },
+  "ttop": {
+   "procura": "TTOP tejadilho",
+   "acabamento": "gelcoat"
+  },
+  "lona": {
+   "procura": "LONA (bimini|toldo)|CAPOTA vela",
+   "acabamento": "tecido",
+   "relevo": "tecido"
+  },
+  "motor": {
+   "procura": "MOTOR capota",
+   "acabamento": "metalizado"
+  },
+  "eva": {
+   "procura": "EVA cinza",
+   "acabamento": "mate",
+   "relevo": "eva"
+  },
+  "teca": {
+   "procura": "TECA",
+   "acabamento": "madeira"
+  },
+  "vela": {
+   "procura": "VELA",
+   "acabamento": "tecido",
+   "relevo": "tecido"
+  },
+  "antivegetativa": {
+   "procura": "ANTIVEGETATIVA",
+   "acabamento": "mate"
+  },
+  "led-sub": {
+   "procura": "LED subaquatico",
+   "acabamento": "solido",
+   "luz": "#3fb8ff",
+   "intensidade": 5,
+   "acesa": true
+  },
+  "led-cortesia": {
+   "procura": "LED cortesia",
+   "acabamento": "solido",
+   "luz": "#ffe3b0",
+   "intensidade": 1.4,
+   "acesa": true
+  },
+  "farol": {
+   "procura": "LED farol",
+   "acabamento": "solido",
+   "luz": "#f4f8ff",
+   "intensidade": 1.6,
+   "acesa": true
+  }
+ },
+ "modsOcultos": true,
+ "cameras": {
+  "Três quartos": {
+   "pos": [
+    21.96,
+    7.23,
+    16.01
+   ],
+   "alvo": [
+    7.27,
+    1.81,
+    0
+   ]
+  },
+  "Popa": {
+   "pos": [
+    -13.77,
+    5.01,
+    10.42
+   ],
+   "alvo": [
+    1.3,
+    1.53,
+    0
+   ]
+  },
+  "Popa perto": {
+   "pos": [
+    -8.56,
+    3.75,
+    7.26
+   ],
+   "alvo": [
+    -0.2,
+    1.39,
+    0.2
+   ],
+   "oculta": true
+  },
+  "Popa baixa": {
+   "pos": [
+    -10.42,
+    0.76,
+    6.33
+   ],
+   "alvo": [
+    0.2,
+    0.76,
+    0
+   ],
+   "oculta": true
+  },
+  "Popa canto": {
+   "pos": [
+    -4.47,
+    0.63,
+    4.84
+   ],
+   "alvo": [
+    0.0,
+    0.58,
+    1.68
+   ],
+   "oculta": true
+  },
+  "Perfil": {
+   "pos": [
+    7.71,
+    2.36,
+    26.99
+   ],
+   "alvo": [
+    7.71,
+    1.81,
+    0
+   ]
+  },
+  "Perfil baixo": {
+   "pos": [
+    7.71,
+    0.28,
+    26.99
+   ],
+   "alvo": [
+    7.71,
+    0.28,
+    0
+   ],
+   "oculta": true
+  },
+  "Cockpit": {
+   "pos": [
+    -4.47,
+    6.12,
+    -5.03
+   ],
+   "alvo": [
+    4.47,
+    1.95,
+    0.1
+   ]
+  },
+  "Posto de comando": {
+   "pos": [
+    4.75,
+    4.31,
+    -1.68
+   ],
+   "alvo": [
+    7.71,
+    2.57,
+    1.49
+   ]
+  },
+  "Proa": {
+   "pos": [
+    23.4,
+    5.01,
+    -7.07
+   ],
+   "alvo": [
+    10.68,
+    2.23,
+    0
+   ]
+  },
+  "Proa perto": {
+   "pos": [
+    20.42,
+    4.03,
+    -5.77
+   ],
+   "alvo": [
+    14.18,
+    2.09,
+    0
+   ],
+   "oculta": true
+  },
+  "Proa baixa": {
+   "pos": [
+    17.81,
+    0.97,
+    -6.7
+   ],
+   "alvo": [
+    12.91,
+    0.7,
+    -0.4
+   ],
+   "oculta": true
+  },
+  "Cobertura": {
+   "pos": [
+    18.18,
+    9.18,
+    -11.54
+   ],
+   "alvo": [
+    6.82,
+    3.06,
+    0
+   ]
+  },
+  "De cima": {
+   "pos": [
+    7.42,
+    19.47,
+    0.01
+   ],
+   "alvo": [
+    7.42,
+    0,
+    0
+   ]
+  }
+ },
+ "passos": [
+  {
+   "id": "motores",
+   "nome": "Engines",
+   "grupos": [
+    "motorizacao"
+   ],
+   "camera": "Três quartos"
+  },
+  {
+   "id": "casco",
+   "nome": "Hull",
+   "grupos": [
+    "casco",
+    "nome"
+   ],
+   "camera": "Perfil"
+  },
+  {
+   "id": "packs",
+   "nome": "Packs",
+   "grupos": [
+    "electronica",
+    "som"
+   ],
+   "camera": "Posto de comando"
+  },
+  {
+   "id": "cobertura",
+   "nome": "Shade",
+   "grupos": [
+    "acessorios-cobertura"
+   ],
+   "camera": "Cobertura"
+  },
+  {
+   "id": "proa",
+   "nome": "Bow & stern",
+   "grupos": [
+    "proa"
+   ],
+   "camera": "Proa"
+  },
+  {
+   "id": "equipamento",
+   "nome": "Equipment",
+   "grupos": [
+    "manobra",
+    "equipamento"
+   ],
+   "camera": "Popa baixa"
+  }
+ ],
+ "grupos": [
+  {
+   "id": "motorizacao",
+   "nome": "Engines",
+   "tipo": "variante",
+   "descricao": "The base price includes the entry-level engines.",
+   "opcoes": [
+    {
+     "id": "volvo-ips650-2x353kw-480cv-diesel-joystick-docki",
+     "nome": "Volvo IPS650 2 × 353KW (480CV) diesel joystick docking",
+     "camera": "Popa",
+     "padrao": true,
+     "mostra": [
+      "^mod ips",
+      "^mod joystick"
+     ],
+     "imagem": "miniaturas/motorizacao-volvo-ips650-2x353kw-480cv-diesel-joystick-docki.jpg"
+    },
+    {
+     "id": "volvo-ips650-2x353kw-480cv-diesel-joystick-drivi",
+     "nome": "Volvo IPS650 2 × 353KW (480CV) diesel joystick driving",
+     "camera": "Popa",
+     "preco": 18000,
+     "mostra": [
+      "^mod ips",
+      "^mod joystick"
+     ],
+     "imagem": "miniaturas/motorizacao-volvo-ips650-2x353kw-480cv-diesel-joystick-drivi.jpg"
+    }
+   ]
+  },
+  {
+   "id": "casco",
+   "nome": "Hull colour",
+   "tipo": "cor",
+   "zona": "casco",
+   "opcoes": [
+    {
+     "id": "branco",
+     "nome": "White hull",
+     "hex": "#f3f3f0",
+     "padrao": true
+    },
+    {
+     "id": "alpine-hull-paint-abysse-blue-dark",
+     "nome": "Alpine hull paint, Abysse blue (dark)",
+     "hex": "#1B3358",
+     "preco": 37100
+    },
+    {
+     "id": "alpine-hull-paint-vision-blue-light",
+     "nome": "Alpine hull paint, Vision blue (light)",
+     "hex": "#1D447F",
+     "preco": 37100
+    }
+   ]
+  },
+  {
+   "id": "nome",
+   "nome": "Boat name",
+   "tipo": "texto",
+   "max": 18,
+   "decal": {
+    "lado": "popa"
+   }
+  },
+  {
+   "id": "electronica",
+   "nome": "Electronics",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "pack-electronic-premium",
+     "nome": "Pack electronic premium",
+     "preco": 18500,
+     "mostra": "^mod ecra pequeno",
+     "camera": "Posto de comando",
+     "imagem": "miniaturas/electronica-pack-electronic-premium.jpg"
+    },
+    {
+     "id": "radar-garmin-fantom18x-black",
+     "nome": "Radar Garmin FANTOM18X Black",
+     "preco": 5230,
+     "mostra": "^mod radar",
+     "camera": "Cobertura",
+     "imagem": "miniaturas/electronica-radar-garmin-fantom18x-black.jpg"
+    }
+   ]
+  },
+  {
+   "id": "som",
+   "nome": "Sound & other packs",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "light-and-sound-pack",
+     "nome": "Light and sound pack",
+     "preco": 31500,
+     "mostra": "^mod som",
+     "camera": "Cockpit",
+     "exclui": [],
+     "imagem": "miniaturas/som-light-and-sound-pack.jpg"
+    },
+    {
+     "id": "pack-entertainment-owner-cabin",
+     "nome": "Pack entertainment owner cabin",
+     "preco": 2750
+    },
+    {
+     "id": "silent-boat-pack",
+     "nome": "Silent boat pack",
+     "preco": 28700
+    }
+   ]
+  },
+  {
+   "id": "acessorios-cobertura",
+   "nome": "Shade accessories",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "sun-awning-cockpit-and-terraces-solstis-black",
+     "nome": "Sun Awning Cockpit And Terraces Solstis Black",
+     "preco": 3280,
+     "mostra": "^mod toldo cockpit",
+     "camera": "Popa",
+     "imagem": "miniaturas/acessorios-cobertura-sun-awning-cockpit-and-terraces-solstis-black.jpg"
+    }
+   ]
+  },
+  {
+   "id": "proa",
+   "nome": "Bow",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "sunawning-foredeck-sunpad-cockpit-solstis-black",
+     "nome": "Sunawning Foredeck Sunpad / Cockpit Solstis Black",
+     "preco": 3680,
+     "mostra": "^(estofo solario|mod solario proa)",
+     "camera": "Proa",
+     "imagem": "miniaturas/proa-sunawning-foredeck-sunpad-cockpit-solstis-black.jpg"
+    }
+   ]
+  },
+  {
+   "id": "manobra",
+   "nome": "Manoeuvring",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "zipwakes-600-automatic-flaps",
+     "nome": "Zipwakes 600 Automatic Flaps",
+     "preco": 11300,
+     "mostra": "^mod zipwake",
+     "camera": "Popa baixa",
+     "imagem": "miniaturas/manobra-zipwakes-600-automatic-flaps.jpg"
+    },
+    {
+     "id": "proportional-bow-thruster",
+     "nome": "Proportional Bow Thruster",
+     "preco": 10100,
+     "mostra": "^mod propulsor",
+     "camera": "Proa baixa",
+     "imagem": "miniaturas/manobra-proportional-bow-thruster.jpg"
+    }
+   ]
+  },
+  {
+   "id": "equipamento",
+   "nome": "Equipment & comfort",
+   "tipo": "equipamento",
+   "descricao": "Equipment not visible from outside, at the official price.",
+   "opcoes": [
+    {
+     "id": "cablemaster-syst-230v-shore-power-extension-reel",
+     "nome": "Cablemaster Syst 230V Shore Power Extension Reel On Lead A/C",
+     "preco": 6260
+    },
+    {
+     "id": "cablemaster-system-230v-shore-power-extension-re",
+     "nome": "Cablemaster System, 230V Shore Power Extension Reel On Lead",
+     "preco": 6260
+    },
+    {
+     "id": "portable-grill-kenyon",
+     "nome": "Portable Grill Kenyon",
+     "preco": 3190
+    },
+    {
+     "id": "wine-cabinet-12-bottles",
+     "nome": "Wine Cabinet 12 Bottles",
+     "preco": 2030
+    },
+    {
+     "id": "tropical-air-conditioning",
+     "nome": "Tropical Air Conditioning",
+     "preco": 51320
+    },
+    {
+     "id": "tropical-air-conditioning-on-reel",
+     "nome": "Tropical Air Conditioning On Reel",
+     "preco": 55750
+    },
+    {
+     "id": "xxl-fuel-tank-2-x-930l",
+     "nome": "XXL Fuel Tank (2 × 930L)",
+     "preco": 2480
+    },
+    {
+     "id": "grey-water-tank-245l-deck-drain-only",
+     "nome": "Grey Water Tank 245L Deck Drain Only",
+     "preco": 360
+    },
+    {
+     "id": "prewiring-tv-in-hardtop-50-quot-cockpit",
+     "nome": "Prewiring TV In Hardtop (50\") Cockpit",
+     "preco": 13210
+    },
+    {
+     "id": "6-persons-table-setting",
+     "nome": "6 Persons Table Setting",
+     "preco": 860
+    },
+    {
+     "id": "safe",
+     "nome": "Safe",
+     "preco": 890
+    },
+    {
+     "id": "brushed-light-oak-hardwood-floor",
+     "nome": "Brushed Light Oak Hardwood Floor",
+     "preco": 8040
+    },
+    {
+     "id": "porthole-mosquito-screens",
+     "nome": "Porthole Mosquito Screens",
+     "preco": 1310
+    },
+    {
+     "id": "aft-cockpit-closing-kit-with-windows-graphite",
+     "nome": "Aft Cockpit Closing Kit With Windows Graphite",
+     "preco": 4150
+    },
+    {
+     "id": "electrical-inflater-for-dinghy",
+     "nome": "Electrical Inflater For Dinghy",
+     "preco": 750
+    },
+    {
+     "id": "folding-carbon-gangway",
+     "nome": "Folding Carbon Gangway",
+     "preco": 6280
+    },
+    {
+     "id": "graphite-self-supporting-hardtop-rear-cap",
+     "nome": "Graphite Self Supporting Hardtop Rear Cap",
+     "preco": 3320
+    },
+    {
+     "id": "black-solstis-wheelhouse-exterior-curtains",
+     "nome": "Black Solstis Wheelhouse Exterior Curtains",
+     "preco": 5000
+    },
+    {
+     "id": "irodeck-on-foredeck",
+     "nome": "Irodeck On Foredeck",
+     "preco": 1510
+    },
+    {
+     "id": "mooring-kit",
+     "nome": "Mooring Kit",
+     "preco": 940
+    },
+    {
+     "id": "assisted-docking-with-7-quot-screen",
+     "nome": "Assisted Docking With 7\" Screen",
+     "preco": 28700
+    },
+    {
+     "id": "assisted-docking-without-7-quot-screen",
+     "nome": "Assisted Docking Without 7\" Screen",
+     "preco": 24900
+    },
+    {
+     "id": "gyroscopic-stabilizer-seakeeper-sk6",
+     "nome": "Gyroscopic Stabilizer Seakeeper SK6",
+     "preco": 116200
+    },
+    {
+     "id": "autopilot-garmin-ghc50-ips-1p",
+     "nome": "Autopilot Garmin GHC50 IPS 1P",
+     "preco": 4850
+    },
+    {
+     "id": "volvo-virtual-anchor-dps-low-speed-with-7-quot-s",
+     "nome": "Volvo Virtual Anchor (DPS)+ Low Speed With 7\" Screen",
+     "preco": 27400
+    },
+    {
+     "id": "volvo-virtual-anchor-dps-low-speed-without-7-quo",
+     "nome": "Volvo Virtual Anchor (DPS)+ Low Speed Without 7\" Screen",
+     "preco": 22000
+    },
+    {
+     "id": "automatic-fire-extinguisher-in-the-engine-hold",
+     "nome": "Automatic Fire Extinguisher In The Engine Hold",
+     "preco": 2010
+    }
+   ]
+  }
+ ],
+ "pontos": [],
+ "corte": false
+}

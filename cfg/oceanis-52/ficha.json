@@ -1,0 +1,1028 @@
+{
+ "id": "oceanis-52",
+ "marca": "BENETEAU",
+ "nome": "Oceanis 52",
+ "medidas": "16.28 m × 4.84 m · 14 476 kg · draught 2.36 m · CE A13 - B14 - C16",
+ "creditos": "Presentation concept, not the official BENETEAU configurator. 3D model built from scratch by AutoUpscale from the official dimensions, profiles and photographs. Prices from the official configurator (Europe, excl. VAT), read on 18/10/2026. On-screen colours are approximate.",
+ "modelo": "modelos/oceanis-52.glb",
+ "lingua": "en-GB",
+ "preco": {
+  "base": 467500,
+  "moeda": "EUR",
+  "nota": "Official BENETEAU prices, Europe, excl. VAT"
+ },
+ "ambienteInicial": "estudio",
+ "ambientes": [
+  [
+   "estudio",
+   "Studio"
+  ]
+ ],
+ "linhaDeAgua": 0.03229222011385199,
+ "rodarLuz": 150,
+ "cameraInicial": "Três quartos",
+ "contacto": {
+  "email": ""
+ },
+ "zonas": {
+  "casco": {
+   "procura": "CASCO gelcoat",
+   "acabamento": "gelcoat"
+  },
+  "faixa": {
+   "procura": "FAIXA casco",
+   "acabamento": "gelcoat"
+  },
+  "janela": {
+   "procura": "JANELA (casco|casaria)",
+   "acabamento": "gelcoat"
+  },
+  "pulpito": {
+   "procura": "PULPITO",
+   "acabamento": "inox"
+  },
+  "estofo": {
+   "procura": "ESTOFO principal",
+   "acabamento": "tecido",
+   "relevo": "vinil"
+  },
+  "acento": {
+   "procura": "ESTOFO acento",
+   "acabamento": "tecido",
+   "relevo": "vinil"
+  },
+  "mesa": {
+   "procura": "MESA madeira",
+   "acabamento": "madeira"
+  },
+  "ttop": {
+   "procura": "TTOP tejadilho",
+   "acabamento": "gelcoat"
+  },
+  "lona": {
+   "procura": "LONA (bimini|toldo)|CAPOTA vela",
+   "acabamento": "tecido",
+   "relevo": "tecido"
+  },
+  "motor": {
+   "procura": "MOTOR capota",
+   "acabamento": "metalizado"
+  },
+  "eva": {
+   "procura": "EVA cinza",
+   "acabamento": "mate",
+   "relevo": "eva"
+  },
+  "teca": {
+   "procura": "TECA",
+   "acabamento": "madeira"
+  },
+  "vela": {
+   "procura": "VELA",
+   "acabamento": "tecido",
+   "relevo": "tecido"
+  },
+  "antivegetativa": {
+   "procura": "ANTIVEGETATIVA",
+   "acabamento": "mate"
+  },
+  "led-sub": {
+   "procura": "LED subaquatico",
+   "acabamento": "solido",
+   "luz": "#3fb8ff",
+   "intensidade": 5,
+   "acesa": true
+  },
+  "led-cortesia": {
+   "procura": "LED cortesia",
+   "acabamento": "solido",
+   "luz": "#ffe3b0",
+   "intensidade": 1.4,
+   "acesa": true
+  },
+  "farol": {
+   "procura": "LED farol",
+   "acabamento": "solido",
+   "luz": "#f4f8ff",
+   "intensidade": 1.6,
+   "acesa": true
+  }
+ },
+ "modsOcultos": true,
+ "cameras": {
+  "Três quartos": {
+   "pos": [
+    22.47,
+    10.06,
+    16.9
+   ],
+   "alvo": [
+    7.22,
+    4.83,
+    0
+   ]
+  },
+  "Popa": {
+   "dir": [
+    -1,
+    0.3,
+    0.55
+   ]
+  },
+  "Popa perto": {
+   "pos": [
+    -9.26,
+    3.61,
+    7.85
+   ],
+   "alvo": [
+    -0.2,
+    1.34,
+    0.2
+   ],
+   "oculta": true
+  },
+  "Popa baixa": {
+   "pos": [
+    -11.27,
+    0.73,
+    6.84
+   ],
+   "alvo": [
+    0.2,
+    0.73,
+    0
+   ],
+   "oculta": true
+  },
+  "Popa canto": {
+   "pos": [
+    -4.83,
+    0.6,
+    5.23
+   ],
+   "alvo": [
+    0.0,
+    0.56,
+    1.81
+   ],
+   "oculta": true
+  },
+  "Perfil": {
+   "dir": [
+    0,
+    0.06,
+    1
+   ]
+  },
+  "Perfil baixo": {
+   "pos": [
+    8.02,
+    0.3,
+    28.17
+   ],
+   "alvo": [
+    8.02,
+    -0.6,
+    0
+   ],
+   "oculta": true
+  },
+  "Cockpit": {
+   "pos": [
+    -4.83,
+    6.34,
+    -4.43
+   ],
+   "alvo": [
+    2.89,
+    2.01,
+    0
+   ]
+  },
+  "Posto de comando": {
+   "pos": [
+    -3.02,
+    3.81,
+    3.22
+   ],
+   "alvo": [
+    1.14,
+    2.41,
+    0
+   ]
+  },
+  "Proa": {
+   "dir": [
+    1,
+    0.22,
+    -0.32
+   ]
+  },
+  "Proa perto": {
+   "pos": [
+    22.07,
+    3.88,
+    -6.24
+   ],
+   "alvo": [
+    15.33,
+    2.0,
+    0
+   ],
+   "oculta": true
+  },
+  "Proa baixa": {
+   "pos": [
+    19.26,
+    0.94,
+    -7.24
+   ],
+   "alvo": [
+    13.95,
+    0.67,
+    -0.4
+   ],
+   "oculta": true
+  },
+  "Cobertura": {
+   "pos": [
+    11.85,
+    7.9,
+    -9.05
+   ],
+   "alvo": [
+    3.37,
+    2.71,
+    0
+   ]
+  },
+  "De cima": {
+   "pos": [
+    8.02,
+    18.71,
+    0.01
+   ],
+   "alvo": [
+    8.02,
+    0,
+    0
+   ]
+  },
+  "Barco inteiro": {
+   "dir": [
+    0.95,
+    0.36,
+    0.95
+   ]
+  }
+ },
+ "passos": [
+  {
+   "id": "motores",
+   "nome": "Engine",
+   "grupos": [
+    "motorizacao"
+   ],
+   "camera": "Três quartos"
+  },
+  {
+   "id": "layout",
+   "nome": "Layout",
+   "grupos": [
+    "layout"
+   ],
+   "camera": "Três quartos"
+  },
+  {
+   "id": "quilha",
+   "nome": "Keel",
+   "grupos": [
+    "quilha"
+   ],
+   "camera": "Perfil baixo"
+  },
+  {
+   "id": "velas",
+   "nome": "Sails",
+   "grupos": [
+    "velas"
+   ],
+   "camera": "Perfil"
+  },
+  {
+   "id": "casco",
+   "nome": "Hull",
+   "grupos": [
+    "casco",
+    "nome"
+   ],
+   "camera": "Perfil"
+  },
+  {
+   "id": "packs",
+   "nome": "Packs",
+   "grupos": [
+    "som"
+   ],
+   "camera": "Três quartos"
+  },
+  {
+   "id": "cockpit",
+   "nome": "Cockpit",
+   "grupos": [
+    "estofos"
+   ],
+   "camera": "Cockpit"
+  },
+  {
+   "id": "cobertura",
+   "nome": "Shade",
+   "grupos": [
+    "cobertura",
+    "acessorios-cobertura"
+   ],
+   "camera": "Cobertura"
+  },
+  {
+   "id": "vela",
+   "nome": "Sails & keel",
+   "grupos": [
+    "aparelho"
+   ],
+   "camera": "Perfil"
+  },
+  {
+   "id": "interior",
+   "nome": "Interior",
+   "grupos": [
+    "salao"
+   ],
+   "camera": "De cima"
+  },
+  {
+   "id": "equipamento",
+   "nome": "Equipment",
+   "grupos": [
+    "manobra",
+    "conforto-visivel",
+    "equipamento"
+   ],
+   "camera": "Popa baixa"
+  }
+ ],
+ "grupos": [
+  {
+   "id": "motorizacao",
+   "nome": "Engine",
+   "tipo": "variante",
+   "descricao": "The base price includes the entry-level engine.",
+   "opcoes": [
+    {
+     "id": "yanmar-4jh110-cr-81kw-110hp-diesel-sail-drive",
+     "nome": "Yanmar 4JH110 cr 81KW(110HP) diesel sail drive",
+     "camera": "Popa",
+     "padrao": true,
+     "mostra": [
+      "^mod veio"
+     ],
+     "imagem": "miniaturas/motorizacao-yanmar-4jh110-cr-81kw-110hp-diesel-sail-drive.jpg"
+    }
+   ]
+  },
+  {
+   "id": "layout",
+   "nome": "Layout",
+   "tipo": "variante",
+   "opcoes": [
+    {
+     "id": "3-cabins-2-heads-version-sand-oak-alpi",
+     "nome": "3 cabins 2 heads version, sand oak alpi",
+     "preco": 28480
+    },
+    {
+     "id": "5-cabins-3-heads-version-laos-teak-laminated-as-",
+     "nome": "5 cabins 3 heads version, laos teak laminated",
+     "padrao": true
+    },
+    {
+     "id": "bow-cabin-laos-teak-laminated",
+     "nome": "Bow cabin, laos teak laminated",
+     "preco": 7610
+    },
+    {
+     "id": "bow-cabin-sand-oak-alpi",
+     "nome": "Bow cabin, sand oak alpi",
+     "preco": 7610
+    }
+   ]
+  },
+  {
+   "id": "quilha",
+   "nome": "Keel",
+   "tipo": "variante",
+   "camera": "Perfil baixo",
+   "opcoes": [
+    {
+     "id": "deep-cast-iron-keel-as-standard",
+     "nome": "Deep cast iron keel",
+     "padrao": true,
+     "mostra": "^mod quilha funda",
+     "imagem": "miniaturas/quilha-deep-cast-iron-keel-as-standard.jpg"
+    },
+    {
+     "id": "shallow-cast-iron-keel",
+     "nome": "Shallow cast iron keel",
+     "preco": 1640,
+     "mostra": "^mod quilha curta",
+     "imagem": "miniaturas/quilha-shallow-cast-iron-keel.jpg"
+    }
+   ]
+  },
+  {
+   "id": "velas",
+   "nome": "Sails",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "code-0-with-furling-system-for-2-spreaders-mast",
+     "nome": "Code 0 With Furling System (For 2 Spreaders Mast)",
+     "preco": 12400,
+     "camera": "Perfil",
+     "mostra": "^mod gennaker",
+     "imagem": "miniaturas/velas-code-0-with-furling-system-for-2-spreaders-mast.jpg"
+    },
+    {
+     "id": "furling-palma-tec-genoa-for-2-spreaders-mast",
+     "nome": "Furling Palma-Tec Genoa (For 2 Spreaders Mast)",
+     "preco": 1350,
+     "camera": "Perfil"
+    },
+    {
+     "id": "palma-tec-mainsail-for-classic-mast",
+     "nome": "Palma-Tec Mainsail For Classic Mast",
+     "preco": 4200,
+     "camera": "Perfil"
+    },
+    {
+     "id": "palma-tec-mainsail-for-furling-mast",
+     "nome": "Palma-Tec Mainsail For Furling Mast",
+     "preco": 1590,
+     "camera": "Perfil",
+     "mostra": "^mod vela enrolar",
+     "imagem": "miniaturas/velas-palma-tec-mainsail-for-furling-mast.jpg"
+    },
+    {
+     "id": "palma-tec-self-tacking-furling-jib",
+     "nome": "Palma-Tec Self-Tacking Furling Jib",
+     "preco": 2400,
+     "camera": "Perfil",
+     "mostra": "^mod autovirante",
+     "imagem": "miniaturas/velas-palma-tec-self-tacking-furling-jib.jpg"
+    },
+    {
+     "id": "performance-sails-for-first-line-pack",
+     "nome": "Performance Sails (For First Line Pack)",
+     "preco": 19600,
+     "camera": "Perfil"
+    }
+   ]
+  },
+  {
+   "id": "salao",
+   "nome": "Saloon upholstery",
+   "tipo": "variante",
+   "descricao": "Interior option: changes the saloon, not visible from outside.",
+   "opcoes": [
+    {
+     "id": "noah-05-ivory-upholstery-in-saloon-3c2t-as-stand",
+     "nome": "Noah 05, ivory, upholstery in saloon (3C2T)",
+     "padrao": true
+    },
+    {
+     "id": "noah-26-sunset-upholstery-in-saloon-3c2t",
+     "nome": "Noah 26, sunset, upholstery in saloon (3C2T)",
+     "preco": 990
+    },
+    {
+     "id": "noah-33-pacific-upholstery-in-saloon-3c2t",
+     "nome": "Noah 33, pacific, upholstery in saloon (3C2T)",
+     "preco": 990
+    }
+   ]
+  },
+  {
+   "id": "casco",
+   "nome": "Hull colour",
+   "tipo": "cor",
+   "zona": "casco",
+   "opcoes": [
+    {
+     "id": "pearl-grey-hull-hull-only",
+     "nome": "Pearl grey hull (hull only)",
+     "hex": "#c9cbc7",
+     "preco": 5270
+    },
+    {
+     "id": "white-hull",
+     "nome": "White hull",
+     "hex": "#f3f3f0",
+     "padrao": true
+    }
+   ]
+  },
+  {
+   "id": "nome",
+   "nome": "Boat name",
+   "tipo": "texto",
+   "max": 18,
+   "decal": {
+    "lado": "popa"
+   }
+  },
+  {
+   "id": "som",
+   "nome": "Packs",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "alu-first-line-pack",
+     "nome": "Alu first line pack",
+     "preco": 34680
+    },
+    {
+     "id": "classic-mast-pack",
+     "nome": "Classic mast pack",
+     "preco": 5220
+    },
+    {
+     "id": "closed-cockpit-pack-galley",
+     "nome": "Closed cockpit pack, galley",
+     "preco": 9880
+    },
+    {
+     "id": "closed-cockpit-pack-storage",
+     "nome": "Closed cockpit pack, storage",
+     "preco": 6050
+    },
+    {
+     "id": "downwind-pack",
+     "nome": "Downwind pack",
+     "preco": 13260
+    },
+    {
+     "id": "elegance-pack",
+     "nome": "Elegance pack",
+     "preco": 13450
+    },
+    {
+     "id": "escape-pack",
+     "nome": "Escape pack",
+     "preco": 19660
+    },
+    {
+     "id": "tender-pack",
+     "nome": "Tender pack",
+     "preco": 5270
+    },
+    {
+     "id": "upwind-and-downwind-pack",
+     "nome": "Upwind and downwind pack",
+     "preco": 17040
+    },
+    {
+     "id": "upwind-pack",
+     "nome": "Upwind pack",
+     "preco": 12440
+    }
+   ]
+  },
+  {
+   "id": "cobertura",
+   "nome": "Shade",
+   "tipo": "variante",
+   "opcoes": [
+    {
+     "id": "sem",
+     "nome": "No bimini or arch",
+     "padrao": true,
+     "imagem": "miniaturas/cobertura-sem.jpg"
+    },
+    {
+     "id": "foldable-bimini-for-helm-stations-silver",
+     "nome": "Foldable Bimini For Helm Stations, Silver (several versions)",
+     "preco": 4640,
+     "mostra": "^mod bimini(?! extensao)",
+     "camera": "Cobertura",
+     "imagem": "miniaturas/cobertura-foldable-bimini-for-helm-stations-silver.jpg"
+    },
+    {
+     "id": "mainsail-arch",
+     "nome": "Mainsail Arch",
+     "preco": 7560,
+     "mostra": "^mod arco",
+     "camera": "Popa",
+     "imagem": "miniaturas/cobertura-mainsail-arch.jpg"
+    }
+   ]
+  },
+  {
+   "id": "conforto-visivel",
+   "nome": "Energy",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "solar-panels-on-the-coachroof",
+     "nome": "Solar Panels On The Coachroof",
+     "preco": 8280,
+     "mostra": "^mod solar",
+     "camera": "Cobertura",
+     "imagem": "miniaturas/conforto-visivel-solar-panels-on-the-coachroof.jpg"
+    }
+   ]
+  },
+  {
+   "id": "acessorios-cobertura",
+   "nome": "Shade accessories",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "coachroof-sprayhood-silver",
+     "nome": "Coachroof Sprayhood, Silver (several versions)",
+     "preco": 8100,
+     "mostra": "^mod capota vela",
+     "camera": "Cockpit",
+     "imagem": "miniaturas/acessorios-cobertura-coachroof-sprayhood-silver.jpg"
+    }
+   ]
+  },
+  {
+   "id": "aparelho",
+   "nome": "Rigging & sails",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "self-tacking-jib-hardware-traveller-for-upwind-p",
+     "nome": "Self-Tacking Jib Hardware, Traveller For Upwind Pack (several versions)",
+     "preco": 790,
+     "mostra": "^mod autovirante",
+     "camera": "Proa",
+     "imagem": "miniaturas/aparelho-self-tacking-jib-hardware-traveller-for-upwind-p.jpg"
+    }
+   ]
+  },
+  {
+   "id": "manobra",
+   "nome": "Manoeuvring",
+   "tipo": "extra",
+   "opcoes": [
+    {
+     "id": "tunnel-bow-thruster",
+     "nome": "Tunnel Bow Thruster",
+     "preco": 9350,
+     "mostra": "^mod propulsor",
+     "camera": "Proa baixa",
+     "imagem": "miniaturas/manobra-tunnel-bow-thruster.jpg"
+    }
+   ]
+  },
+  {
+   "id": "estofos",
+   "nome": "Upholstery",
+   "tipo": "variante",
+   "camera": "Cockpit",
+   "opcoes": [
+    {
+     "id": "standard",
+     "nome": "Standard",
+     "padrao": true,
+     "cores": {
+      "estofo": "#cfccc4",
+      "acento": "#bdb9b0"
+     },
+     "imagem": "miniaturas/estofos-standard.jpg"
+    },
+    {
+     "id": "standard-2",
+     "nome": "Padding Upholstery In Salon And Cabins, Glacier, 3C2T",
+     "cores": {
+      "estofo": "#cfccc4",
+      "acento": "#bdb9b0"
+     },
+     "preco": 520,
+     "imagem": "miniaturas/estofos-standard-2.jpg"
+    }
+   ]
+  },
+  {
+   "id": "equipamento",
+   "nome": "Equipment & comfort",
+   "tipo": "equipamento",
+   "descricao": "Equipment not visible from outside, at the official price.",
+   "opcoes": [
+    {
+     "id": "generator-9-kva-230v-50hz-with-cocoon-fischer-pa",
+     "nome": "Generator 9 kVA 230V 50Hz, With Cocoon, Fischer Panda",
+     "preco": 26900
+    },
+    {
+     "id": "generator-9-kva-230v-50hz-with-cocoon-for-air-co",
+     "nome": "Generator 9 kVA 230V 50Hz, With Cocoon, For Air Conditioning",
+     "preco": 28400
+    },
+    {
+     "id": "230v-50hz-washing-machine-and-tumble-dryer-8-5kg",
+     "nome": "230V/50Hz Washing Machine And Tumble Dryer (8/5KG)",
+     "preco": 3500
+    },
+    {
+     "id": "dishwasher-6-sets-230v-5c3t",
+     "nome": "Dishwasher (6 Sets) 230V 5C3T",
+     "preco": 2070
+    },
+    {
+     "id": "dishwasher-6-sets-230v-3c2t",
+     "nome": "Dishwasher (6 Sets) 230V 3C2T",
+     "preco": 2070
+    },
+    {
+     "id": "extra-fridge-in-galley-130l-34-us-gal-3c2t",
+     "nome": "Extra Fridge In Galley, 130L / 34 US gal (3C2T)",
+     "preco": 1670
+    },
+    {
+     "id": "microwave-oven-230v50-3c2t",
+     "nome": "Microwave Oven 230V50 3C2T",
+     "preco": 730
+    },
+    {
+     "id": "36-000-btu-air-conditioning-3c2t",
+     "nome": "36 000 BTU Air Conditioning, 3C2T",
+     "preco": 23100
+    },
+    {
+     "id": "40-000-btu-air-conditioning-5c3t",
+     "nome": "40 000 BTU Air Conditioning, 5C3T",
+     "preco": 23100
+    },
+    {
+     "id": "connection-for-the-air-conditioning-in-the-bow-c",
+     "nome": "Connection For The Air Conditioning In The Bow Cabin",
+     "preco": 490
+    },
+    {
+     "id": "diesel-forced-air-heating",
+     "nome": "Diesel Forced Air Heating",
+     "preco": 12400
+    },
+    {
+     "id": "fans-in-saloon-and-cabins-white-3c2t",
+     "nome": "Fans In Saloon And Cabins (White) 3C2T",
+     "preco": 740
+    },
+    {
+     "id": "extra-fuel-tank-200-l-53-us-gal",
+     "nome": "Extra Fuel Tank (200 L / 53 US gal)",
+     "preco": 2140
+    },
+    {
+     "id": "extra-water-tank-150-l-43-us-gal-portside",
+     "nome": "Extra Water Tank (150 L / 43 US gal), Portside",
+     "preco": 1280
+    },
+    {
+     "id": "extra-water-tank-150-l-43-us-gal-starboard",
+     "nome": "Extra Water Tank (150 L / 43 US gal), Starboard",
+     "preco": 1280
+    },
+    {
+     "id": "sea-water-fresh-water-foot-pump",
+     "nome": "Sea Water-Fresh Water Foot Pump",
+     "preco": 690
+    },
+    {
+     "id": "water-maker-60-liters-hour-12v-230v",
+     "nome": "Water Maker (60 Liters Hour 12V-230V)",
+     "preco": 16200
+    },
+    {
+     "id": "water-purifier-uv-filter",
+     "nome": "Water Purifier (UV Filter)",
+     "preco": 1170
+    },
+    {
+     "id": "signature-speakers-in-the-saloon",
+     "nome": "Signature Speakers In The Saloon",
+     "preco": 650
+    },
+    {
+     "id": "tv-pre-wiring-in-the-saloon",
+     "nome": "TV Pre-Wiring In The Saloon",
+     "preco": 1040
+    },
+    {
+     "id": "double-berth-in-saloon-noah-05-ivory-3c2t",
+     "nome": "Double Berth In Saloon, Noah 05, Ivory, 3C2T",
+     "preco": 780
+    },
+    {
+     "id": "double-berth-in-saloon-noah-26-sunset-3c2t",
+     "nome": "Double Berth In Saloon, Noah 26, Sunset, 3C2T",
+     "preco": 780
+    },
+    {
+     "id": "double-berth-in-saloon-noah-33-pacific-3c2t",
+     "nome": "Double Berth In Saloon, Noah 33, Pacific, 3C2T",
+     "preco": 780
+    },
+    {
+     "id": "mattress-for-transformable-table-in-elegance-pac",
+     "nome": "Mattress For Transformable Table In Elegance Pack, Noah 05",
+     "preco": 780
+    },
+    {
+     "id": "mattress-for-transformable-table-in-elegance-pac-2",
+     "nome": "Mattress For Transformable Table In Elegance Pack, Noah 26",
+     "preco": 780
+    },
+    {
+     "id": "mattress-for-transformable-table-in-elegance-pac-3",
+     "nome": "Mattress For Transformable Table In Elegance Pack, Noah 33",
+     "preco": 780
+    },
+    {
+     "id": "mirrors-in-the-saloon-on-the-forward-bulkhead",
+     "nome": "Mirrors In The Saloon On The Forward Bulkhead",
+     "preco": 790
+    },
+    {
+     "id": "safe",
+     "nome": "Safe",
+     "preco": 740
+    },
+    {
+     "id": "tableware-kit-6-persons",
+     "nome": "Tableware Kit, 6 Persons",
+     "preco": 860
+    },
+    {
+     "id": "brown-oak-laminated-floors-3c2t",
+     "nome": "Brown Oak Laminated Floors (3C2T)",
+     "preco": 550
+    },
+    {
+     "id": "electric-toilet-quiet-flush-portside-aft-sea-fre",
+     "nome": "Electric Toilet Quiet Flush, Portside Aft- Sea/Fresh Water",
+     "preco": 1390
+    },
+    {
+     "id": "electric-toilet-quiet-flush-starboard-aft-sea-fr",
+     "nome": "Electric Toilet Quiet Flush, Starboard Aft- Sea/Fresh Water",
+     "preco": 1390
+    },
+    {
+     "id": "electric-toilet-quiet-flush-portside-forward-sea",
+     "nome": "Electric Toilet Quiet Flush Portside Forward-Sea/Fresh Water",
+     "preco": 1390
+    },
+    {
+     "id": "electric-toilet-quiet-flush-portside-forward-sea-2",
+     "nome": "Electric Toilet Quiet Flush Portside Forward-Sea/Fresh Water",
+     "preco": 1390
+    },
+    {
+     "id": "electric-toilet-quiet-flush-starboard-fward-fres",
+     "nome": "Electric Toilet Quiet Flush Starboard Fward- Fresh/Sea Water",
+     "preco": 1390
+    },
+    {
+     "id": "inverter-12-230v-2000va",
+     "nome": "Inverter 12-230V 2000VA",
+     "preco": 4140
+    },
+    {
+     "id": "premium-mattress-for-the-aft-cabins",
+     "nome": "Premium Mattress For The Aft Cabins",
+     "preco": 1970
+    },
+    {
+     "id": "premium-mattress-for-the-owner-cabin",
+     "nome": "Premium Mattress For The Owner Cabin",
+     "preco": 880
+    },
+    {
+     "id": "3-stainless-steel-burners-oven-and-grill",
+     "nome": "3 Stainless Steel Burners Oven And Grill",
+     "preco": 1290
+    },
+    {
+     "id": "dock-freshwater-inlet",
+     "nome": "Dock Freshwater Inlet",
+     "preco": 630
+    },
+    {
+     "id": "electric-deck-wash-pump-sea-water-fresh-water",
+     "nome": "Electric Deck Wash Pump (Sea Water-Fresh Water)",
+     "preco": 1130
+    },
+    {
+     "id": "covers-for-polyester-cockpit-tables-silver",
+     "nome": "Covers For Polyester Cockpit Tables, Silver",
+     "preco": 790
+    },
+    {
+     "id": "covers-for-wooden-cockpit-tables-silver",
+     "nome": "Covers For Wooden Cockpit Tables, Silver",
+     "preco": 790
+    },
+    {
+     "id": "central-folding-extension-on-the-cockpit-tables-",
+     "nome": "Central Folding Extension On The Cockpit Tables (Wood)",
+     "preco": 1230
+    },
+    {
+     "id": "central-folding-extension-on-the-cockpit-tables--2",
+     "nome": "Central Folding Extension On The Cockpit Tables (Polyester)",
+     "preco": 1230
+    },
+    {
+     "id": "silver-sunshade-on-foredeck",
+     "nome": "Silver Sunshade On Foredeck",
+     "preco": 1910
+    },
+    {
+     "id": "2-sunbed-mattresses-for-companionway-savane-nimb",
+     "nome": "2 Sunbed Mattresses For Companionway, Savane Nimbus",
+     "preco": 2990
+    },
+    {
+     "id": "iro-deck-cockpit-floor",
+     "nome": "Iro-Deck Cockpit Floor",
+     "preco": 8380
+    },
+    {
+     "id": "iro-deck-decking-on-companionway-sunbeds",
+     "nome": "Iro-Deck Decking On Companionway Sunbeds",
+     "preco": 2540
+    },
+    {
+     "id": "iro-deck-slatted-catwalks",
+     "nome": "Iro-Deck Slatted Catwalks",
+     "preco": 21400
+    },
+    {
+     "id": "aft-fairleads",
+     "nome": "Aft Fairleads",
+     "preco": 340
+    },
+    {
+     "id": "mooring-anchoring-kit",
+     "nome": "Mooring-Anchoring Kit",
+     "preco": 2750
+    },
+    {
+     "id": "2-electric-genoa-sheet-winches-h60-2-staeh",
+     "nome": "2 Electric Genoa Sheet Winches H60.2 Staeh",
+     "preco": 9570
+    },
+    {
+     "id": "electric-portside-halyard-winch-h50-2-staeh-h46-",
+     "nome": "Electric Portside Halyard Winch H50.2 Staeh/H46.2 Sta",
+     "preco": 5070
+    },
+    {
+     "id": "electric-starboard-halyard-winch-h50-2-staeh-h46",
+     "nome": "Electric Starboard Halyard Winch H50.2 Staeh/H46.2 Sta",
+     "preco": 5070
+    },
+    {
+     "id": "2-black-composite-steering-wheels",
+     "nome": "2 Black Composite Steering Wheels",
+     "preco": 1880
+    },
+    {
+     "id": "2-white-composite-steering-wheels",
+     "nome": "2 White Composite Steering Wheels",
+     "preco": 1790
+    },
+    {
+     "id": "ais-700-raymarine",
+     "nome": "AIS 700, Raymarine",
+     "preco": 1830
+    },
+    {
+     "id": "raymarine-quantum-doppler-2-radar",
+     "nome": "Raymarine Quantum Doppler 2 Radar",
+     "preco": 5370
+    },
+    {
+     "id": "raymarine-ray90-wireless-vhf-set",
+     "nome": "Raymarine RAY90 Wireless VHF Set",
+     "preco": 810
+    }
+   ]
+  }
+ ],
+ "pontos": [],
+ "corte": false
+}
